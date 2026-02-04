@@ -1,2 +1,3 @@
-# CSCI-163-AI-In-CS_Education-Website
-Semester long project on an AI topic.
+# CSCI-163: AI In CS Education
+
+A mini website for a lay audience explaining how AI coding assistants (chatbots/Copilot/Cursor) are reshaping CS learning, grading, and hiring, who benefits, who’s harmed, and what we should do about it.
