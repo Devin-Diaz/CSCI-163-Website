@@ -1,0 +1,269 @@
+Your project in one sentence
+
+A mini website for a lay audience explaining how AI coding assistants (chatbots/Copilot/Cursor) are reshaping CS learning, grading, and hiring—who benefits, who’s harmed, and what we should do about it.
+
+1) Professor requirements → exact “website deliverables” checklist
+Requirement A: Educate a lay audience
+
+✅ Your site must clearly explain:
+
+What AI coding assistants are (LLMs, IDE copilots, “vibe coding”)
+
+What they’re used for in CS learning (generate code, explain code, debug, autocomplete)
+
+Where they show up (homework, labs, projects, interviews)
+
+Website implementation boxes
+
+ “What these tools are” page/section (plain English + examples)
+
+ “Where students use them” page/section (school + interviews)
+
+ Quick glossary (LLM, prompt, autocomplete, hallucination, etc.)
+
+Requirement B: Provoke critical thinking about design/use + impacts
+
+✅ Your site must actively push visitors to question fairness + consequences:
+
+“Is this learning or outsourcing thinking?”
+
+“Who can afford the best tools?”
+
+“Do bans and surveillance harm some groups more than others?”
+
+“Are current assessments measuring real ability?”
+
+Website implementation boxes
+
+ “Who gains / who loses?” section (access, inequality, skill gaps)
+
+ “Assessment & cheating vs learning” section
+
+ “Surveillance vs education” section (detectors, bans, monitoring)
+
+Requirement C: Inspire reflection or action
+
+✅ Your site must do more than inform—it must lead to reflection or next steps.
+
+Website implementation boxes
+
+ “What should change?” section (your proposed approach)
+
+ “Take action” section with concrete suggestions for:
+
+students (how to use AI responsibly to learn)
+
+instructors (assessment redesign, AI policy)
+
+schools (AI literacy support, equity considerations)
+
+ A short “reflection prompt” block (questions people answer mentally before survey)
+
+Requirement D: Use at least 2 course readings + 4 outside scholarly sources
+
+✅ You must incorporate them either:
+
+directly on the site (citations + quotes/paraphrases), OR
+
+via a 1–3 page single-spaced reflection explaining how sources informed your artifact.
+
+Strong recommendation (clean + easy):
+
+Put light citations on the site + a separate reflection page (or PDF) with fuller explanation.
+
+Website implementation boxes
+
+ Works Cited page (all sources listed)
+
+ In-text citations or footnotes on key claims
+
+ Reflection component (1–3 pages single-spaced) explaining:
+
+which 2 course readings you used
+
+which 4 scholarly sources you used
+
+where each influenced the website
+
+(I can help you build a citation plan once you tell me the 2 course readings you want to use.)
+
+Requirement E: Anonymous survey + at least 10 responses by March 21 + analyze
+
+✅ You must create an anonymous survey to measure:
+
+what people learned
+
+what can be improved
+…and you must collect/analyze ≥ 10 responses.
+
+Website implementation boxes
+
+ Survey link embedded prominently (Google Forms is easiest)
+
+ “Survey consent blurb” (anonymous, voluntary, purpose)
+
+ A “Results” section/page where you summarize findings (after you collect them)
+
+ Basic analysis: charts + 5–10 bullet takeaways + “what I would improve”
+
+2) Suggested website structure (minimum viable but strong)
+
+You can keep it simple (single-page scroll) or multi-page. Multi-page is easier to keep organized:
+
+Page 1 — Home / Hook
+
+Short scenario + 2–3 key questions
+
+CTA buttons: “Learn the Issue” / “Take the Survey”
+
+Page 2 — The Tools (Education requirement)
+
+LLM chatbots vs IDE copilots vs vibe coding
+
+1–2 safe examples: “Here’s what it can do”
+
+Page 3 — Impacts (Critical thinking requirement)
+
+Split into clear cards:
+
+Learning outcomes (understanding vs completion)
+
+Fairness/access (paid tools, prior experience)
+
+Academic integrity (what is “cheating” now?)
+
+Technical interviews (new forms of dishonesty + new forms of gatekeeping)
+
+Page 4 — Surveillance vs Education (Power + ethics)
+
+Detectors, bans, monitoring
+
+Tradeoffs and who gets harmed
+
+Page 5 — Solutions
+
+Two parts:
+
+“What people propose already” (summarize 2–3)
+
+“My proposal” (yours) with pros/cons
+
+Page 6 — Survey
+
+Embed or link the form + short consent blurb
+
+Page 7 — Works Cited (+ optional Reflection)
+
+Works Cited required
+
+Reflection component optional but recommended
+
+3) Data you can gather and show (to make the website feel “real”)
+
+You don’t need a huge dataset. You need credible + visual evidence.
+
+A) Your own anonymous survey data (required anyway)
+
+Collect:
+
+prior familiarity with AI tools
+
+whether they think AI helps learning or hurts it
+
+perceptions of fairness
+
+whether your website changed their view
+
+How to represent on site (after March 21)
+
+bar charts of key questions
+
+2–3 anonymized short responses (no identifying info)
+
+a “What I’d improve” section based on feedback
+
+B) Mini “user study” style interaction (optional but cool)
+
+On the site, include one interactive element:
+
+A short quiz: “Is this learning or outsourcing?”
+
+A slider: “Where do you think the line is between help and cheating?”
+
+A choose-your-path scenario: “You’re a student/instructor/employer—what policy do you choose?”
+
+This helps you satisfy “provoke critical thinking” in a measurable way.
+
+C) Scholarly stats (outside sources)
+
+Pull a few simple, high-impact figures from papers/reports like:
+
+% of students using AI tools for programming tasks
+
+measured effects on learning outcomes (if studied)
+
+error rates / hallucination issues in coding assistants
+
+impacts of surveillance tools (false positives, trust issues)
+
+Then show:
+
+2–4 small charts or “stat cards” with citations
+
+D) “Policy examples” (lightweight evidence)
+
+Show 2–3 examples of how institutions respond:
+
+AI allowed with disclosure
+
+banned
+
+redesigned assessments
+
+Even a simple comparison table works (and you cite sources).
+
+4) Your “definition of done” (print this and check it off)
+Core content
+
+ Explains AI coding assistants clearly for non-technical readers
+
+ Shows ethical/social impacts, including fairness and power
+
+ Includes both education + hiring/interview implications
+
+ Proposes solutions (existing + yours) with pros/cons
+
+ Has reflection/action prompts
+
+Sources
+
+ Uses at least 2 course readings
+
+ Uses at least 4 outside scholarly sources
+
+ Includes a Works Cited
+
+ (Recommended) 1–3 page reflection explaining source use
+
+Survey & analysis
+
+ Anonymous survey created and linked on site
+
+ Survey measures learning + improvement suggestions
+
+ Collect ≥ 10 responses by March 21
+
+ Summarize/analyze results in the final submission
+
+5) Your topic boundaries (so you don’t drift)
+
+To stay focused, your site should be about:
+
+✅ AI coding assistants in CS learning + assessment + technical interviews
+Not about:
+
+general AI in education across all subjects
+
+deep ML technicals
+
+broad “AI ethics everywhere” arguments
