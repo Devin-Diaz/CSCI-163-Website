@@ -82,6 +82,12 @@ the disciplinary perspective the source
 is written from and how you’ve
 determined it
 
+Example of above:
+This source is written from a psychological perspective. I determined this because it was published in the 
+Journal of Experimental Psychology, the author is affiliated with a psychology department, and the article 
+uses controlled experiments and statistical analysis to study behavior.
+
+
 the audience the source is written for
 and how you’ve determined it
 
