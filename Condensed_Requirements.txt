@@ -44,21 +44,23 @@ Project Proposal - Due February 19th by 11:59pm
 Task List: 
 
 Finding Sources:
-Devin: 1 class article + 1 scholarly article
+Devin: 1 class reading + 1 scholarly reading
 ---------------------------------------------
-Tyler: 1 class article + 1 scholarly article
+Tyler: 1 class reading + 1 scholarly reading
 
 Name: Option 2
 
-The AI topic/technology that we've selected is AI in education, focusing on coding assistents such as chatbots, 
-Copilot, and Cursor. How CS learning, grading, and hiring are affected, in terms of who benefits, who's harmed, 
-and what we should do about it.
+The AI topic that we've selected is AI in education, focusing on coding assistents such as GitHub 
+Copilot and Cursor. 
 
-The format we envision our creative project to take is a website.
+The format we envision our creative project to take is a website, to display our ideas and research on. 
 
-(TODO) Your ideas for the major tech justice-related takeaway(s) you
-want to leave audiences with at this time in your project’s
-development.
+Our ideas for the major tech justice-related takeaway(s) we want to leave audiences with 
+at this time in our project is, with the rise of code completion that can be automated;
+how CS learning, grading, and job prospects are affected, in terms of who benefits, who's harmed, and what we 
+should do about it. Since for the longest time software development required software engineers that went to 
+a universty studing computer science, now with generative coding assistents that outlook potentially will look
+different.
 
 (TODO) A draft of the anonymous survey questions you plan to use
 for gathering lay audience feedback on your creative project
