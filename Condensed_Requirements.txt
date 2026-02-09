@@ -39,28 +39,35 @@ submission.
 
 
 ----------------------------------------------------------------------------
-Option 2: Project Proposal - Due February 19th by 11:59pm
+Project Proposal - Due February 19th by 11:59pm
 
-Names, The name of the option you’ve selected (“Option 2”)
+Task List: 
 
-The AI topic/technology you’ve selected and the context(s)
-your project is being responsive to.
+Finding Sources:
+Devin: 1 class article + 1 scholarly article
+---------------------------------------------
+Tyler: 1 class article + 1 scholarly article
 
-The format you envision your creative project taking (e.g.
-website, artwork, podcast, educational video, etc.)
+Name: Option 2
 
-Your ideas for the major tech justice-related takeaway(s) you
+The AI topic/technology that we've selected is AI in education, focusing on coding assistents such as chatbots, 
+Copilot, and Cursor. How CS learning, grading, and hiring are affected, in terms of who benefits, who's harmed, 
+and what we should do about it.
+
+The format we envision our creative project to take is a website.
+
+(TODO) Your ideas for the major tech justice-related takeaway(s) you
 want to leave audiences with at this time in your project’s
 development.
 
-A draft of the anonymous survey questions you plan to use
+(TODO) A draft of the anonymous survey questions you plan to use
 for gathering lay audience feedback on your creative project
 in order to assess to what extent they found it educational,
 provoking of critical thinking, and inspiring of action or
 reflection, as well as their feedback on what can be
 improved.
 
-An annotated bibliography with four annotations for outside
+(TODO) An annotated bibliography with four annotations for outside
 scholarly sources that you are considering incorporating into
 your project.
 
