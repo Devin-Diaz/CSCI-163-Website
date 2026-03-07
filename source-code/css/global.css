@@ -1,0 +1,68 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+:root{
+--bg-soft:#eef2f7;
+--bg-warm:#f7f9fc;
+--ink:#1f2a37;
+--ink-muted:#4f5f73;
+--surface:#ffffff;
+--surface-tint:#f4f8fc;
+--line:#d9e2ee;
+--brand:#2b5f87;
+--brand-soft:#5e8fb1;
+--accent:#3f7a6e;
+--shadow:0 10px 24px rgba(26, 50, 74, 0.1);
+--radius-lg:14px;
+--radius-md:10px;
+}
+
+body{
+
+font-family:"Nunito Sans", "Trebuchet MS", "Segoe UI", sans-serif;
+
+background:
+radial-gradient(circle at 12% 18%, rgba(94, 143, 177, 0.12), transparent 34%),
+radial-gradient(circle at 85% 5%, rgba(63, 122, 110, 0.09), transparent 30%),
+linear-gradient(180deg, var(--bg-soft) 0%, var(--bg-warm) 100%);
+
+color:var(--ink);
+line-height:1.55;
+min-height:100vh;
+}
+
+main{
+
+width:90%;
+
+max-width:1100px;
+
+margin:auto;
+
+padding-top:40px;
+padding-bottom:48px;
+
+}
+
+a{
+
+text-decoration:none;
+
+color:inherit;
+
+transition:color 0.25s ease, opacity 0.25s ease;
+
+}
+
+a:hover{
+color:var(--brand);
+}
+
+::selection{
+background:rgba(43, 95, 135, 0.2);
+color:var(--ink);
+
+}

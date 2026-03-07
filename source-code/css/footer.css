@@ -1,0 +1,29 @@
+.footer{
+
+margin-top:60px;
+
+background:linear-gradient(120deg, #1b2c3f, #22394f 55%, #2b4a63);
+
+color:white;
+
+text-align:center;
+
+padding:20px;
+
+font-size:14px;
+
+border-top:3px solid rgba(185, 215, 235, 0.5);
+letter-spacing:0.3px;
+box-shadow:0 -6px 16px rgba(12, 25, 38, 0.2);
+
+}
+
+.footer a{
+color:#d2e7f5;
+font-weight:600;
+}
+
+.footer a:hover{
+color:#ffffff;
+
+}
