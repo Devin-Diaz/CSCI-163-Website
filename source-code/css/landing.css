@@ -32,7 +32,7 @@ justify-content:center;
 animation:rise-in 0.75s ease 0.12s both;
 }
 
-.image-placeholder{
+.image-placeholder img {
 width:100%;
 height:300px;
 border:2px dashed #9bb6cb;
@@ -53,6 +53,13 @@ box-shadow:0 10px 24px rgba(26, 50, 74, 0.1);
 font-weight:700;
 color:#2b5f87;
 animation:float-soft 5.5s ease-in-out infinite;
+}
+
+.photo-credit {
+    text-align: left;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #666;
 }
 
 .survey{
@@ -117,6 +124,8 @@ border-radius:10px 0 0 10px;
 margin-bottom:10px;
 padding-left:12px;
 color:#31465e;
+text-indent: -47px;
+padding-left: 37px;
 }
 
 @keyframes rise-in{
