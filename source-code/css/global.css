@@ -31,7 +31,11 @@ linear-gradient(180deg, var(--bg-soft) 0%, var(--bg-warm) 100%);
 
 color:var(--ink);
 line-height:1.55;
-min-height:100vh;
+
+/* make the page a column flex container so footer can be pushed to bottom */
+display: flex;
+flex-direction: column;
+min-height: 100vh;
 }
 
 main{
@@ -45,6 +49,31 @@ margin:auto;
 padding-top:40px;
 padding-bottom:48px;
 
+/* allow main to grow and fill available vertical space */
+flex: 1;
+}
+
+.Section_Navigator {
+display: flex;
+flex-direction: column;
+gap: 10px;
+position: fixed;
+left: 100px;
+top: 200px;
+}
+
+/* Ensure nav stays on the left on small screens (phones) */
+@media (max-width: 760px) {
+  .Section_Navigator {
+    /* reduce offset so it hugs the left edge */
+    left: 10px;
+    /* move a bit lower to clear the mobile header/nav area */
+    top: 200px;
+    /* keep it above other content */
+    z-index: 10;
+    /* make it slightly smaller if needed */
+    font-size: 0.9rem;
+  }
 }
 
 a{

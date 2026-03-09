@@ -1,6 +1,7 @@
 .footer{
 
-margin-top:60px;
+/* push footer to bottom in a column flex layout */
+margin-top:auto;
 
 background:linear-gradient(120deg, #1b2c3f, #22394f 55%, #2b4a63);
 
