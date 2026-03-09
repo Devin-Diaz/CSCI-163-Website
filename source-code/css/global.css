@@ -63,6 +63,12 @@ top: 200px;
 background-color: lightyellow;
 padding: 15px;
 border-radius: var(--radius-md);
+color: black;
+}
+
+.Section_Navigator :hover {
+color: grey;
+text-decoration: underline;
 }
 
 /* Ensure nav stays on the left on small screens (phones) */
