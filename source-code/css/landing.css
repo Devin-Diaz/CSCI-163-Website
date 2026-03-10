@@ -35,7 +35,6 @@ animation:rise-in 0.75s ease 0.12s both;
 .image-placeholder img {
 width:100%;
 height:300px;
-border:2px dashed #9bb6cb;
 display:flex;
 align-items:center;
 justify-content:center;
@@ -78,7 +77,6 @@ width:200px;
 height:200px;
 margin:auto;
 margin-top:20px;
-border:2px dashed #8fb2a9;
 display:flex;
 align-items:center;
 justify-content:center;
@@ -88,6 +86,15 @@ box-shadow:0 10px 24px rgba(26, 50, 74, 0.1);
 color:#2f6259;
 font-weight:700;
 transition:transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.qr-placeholder img {
+max-width: 100%;
+max-height: 100%;
+width: auto;
+height: auto;
+object-fit: contain;
+display: block;
 }
 
 .qr-placeholder:hover{
