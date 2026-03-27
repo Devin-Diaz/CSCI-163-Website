@@ -1,12 +1,21 @@
-.hero{
-text-align:center;
-margin-bottom:40px;
-padding:36px 28px;
-background:linear-gradient(160deg, rgba(255, 255, 255, 0.88), rgba(244, 248, 252, 0.88));
-border:1px solid #d9e2ee;
-border-radius:14px;
-box-shadow:0 10px 24px rgba(26, 50, 74, 0.1);
-animation:rise-in 0.65s ease both;
+.hero {
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 36px 28px;
+    background: linear-gradient(
+        160deg,
+        rgba(255, 255, 255, 0.88),
+        rgba(244, 248, 252, 0.88)
+    );
+    border: 1px solid var(--clip-color, #d9e2ee); /* fallback */
+    border-radius: 14px;
+    box-shadow: 0 10px 24px rgba(26, 50, 74, 0.1);
+    animation: rise-in 0.65s ease both;
+}
+
+/* Ensure headings with IDs appear below fixed header-nav when scrolled to */
+.hero[id] {
+scroll-margin-top: 200px;
 }
 
 .hero h1{

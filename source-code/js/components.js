@@ -15,9 +15,9 @@ document.getElementById("navbar").innerHTML = `
 <div class="nav-right">
 
 <a href="index.html">Home</a>
-<a href="Page_1.html">Page 1</a>
-<a href="Page_2.html">Page 2</a>
-<a href="Page_3.html">Page 3</a>
+<a href="page_1.html">Page 1</a>
+<a href="page_2.html">Page 2</a>
+<a href="aboutUs.html">About Us</a>
 
 </div>
 
@@ -30,7 +30,7 @@ document.getElementById("footer").innerHTML = `
 
 <footer class="footer">
 
-<p>AI in CS Education | Intro CS Project</p>
+<p>AI in CS Education | CSCI-163</p>
 
 </footer>
 

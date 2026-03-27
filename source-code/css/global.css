@@ -36,6 +36,7 @@ line-height:1.55;
 display: flex;
 flex-direction: column;
 min-height: 100vh;
+padding-top: 152px; /* Account for fixed navbar (92px) + header-nav (60px) */
 }
 
 main{
@@ -53,22 +54,43 @@ padding-bottom:48px;
 flex: 1;
 }
 
-.Section_Navigator {
+/* Header and Navigation for articles */
+.header-nav {
 display: flex;
-flex-direction: column;
-gap: 10px;
+gap: 5px;
+justify-content: center;
+padding: 5px 0;
+background-color: black;
 position: fixed;
-left: 50px;
-top: 200px;
-background-color: lightyellow;
-padding: 15px;
-border-radius: var(--radius-md);
-color: black;
+top: 92px; /* Position below the fixed navbar */
+left: 0;
+right: 0;
+z-index: 39; /* Below navbar z-index of 40 */
 }
 
-.Section_Navigator :hover {
-color: grey;
-text-decoration: underline;
+.header-links {
+color: white;
+text-decoration: none;
+padding: 8px 16px;
+border-radius: 4px;
+transition: background-color 0.3s ease;
+font-size: 13px;
+}
+
+.header-links:hover {
+color:rgba(0, 245, 245, 0.873);
+}
+
+/* Responsive styles for header-nav */
+@media (max-width: 760px) {
+.header-nav {
+display: none;
+}
+
+.header-links {
+font-size: 13px;
+padding: 6px 12px;
+}
 }
 
 /* Scroll to Top */
@@ -86,20 +108,6 @@ text-decoration: underline;
   padding: 15px; /* Some padding */
   border-radius: 10px; /* Rounded corners */
   font-size: 18px; /* Increase font size */
-}
-
-/* Ensure nav stays on the left on small screens (phones) */
-@media (max-width: 760px) {
-  .Section_Navigator {
-    /* reduce offset so it hugs the left edge */
-    left: 10px;
-    /* move a bit lower to clear the mobile header/nav area */
-    top: 200px;
-    /* keep it above other content */
-    z-index: 10;
-    /* make it slightly smaller if needed */
-    font-size: 0.9rem;
-  }
 }
 
 a{
