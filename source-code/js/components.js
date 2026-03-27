@@ -15,8 +15,8 @@ document.getElementById("navbar").innerHTML = `
 <div class="nav-right">
 
 <a href="index.html">Home</a>
-<a href="page_1.html">Page 1</a>
-<a href="page_2.html">Page 2</a>
+<a href="page1.html">Page 1</a>
+<a href="page2.html">Page 2</a>
 <a href="aboutUs.html">About Us</a>
 
 </div>
