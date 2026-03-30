@@ -39,6 +39,11 @@ min-height: 100vh;
 padding-top: 152px; /* Account for fixed navbar (92px) + header-nav (60px) */
 }
 
+.infographic {
+  max-width: 100%;
+  height: auto;
+}
+
 main{
 
 width:90%;
@@ -79,6 +84,11 @@ font-size: 13px;
 
 .header-links:hover {
 color:rgba(0, 245, 245, 0.873);
+}
+
+#action_icon {
+  width: 40px;
+  height: auto;
 }
 
 /* Responsive styles for header-nav */
