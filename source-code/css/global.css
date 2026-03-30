@@ -91,6 +91,11 @@ color:rgba(0, 245, 245, 0.873);
   height: auto;
 }
 
+.reference {
+  width: 15px;
+  height: auto;
+}
+
 /* Responsive styles for header-nav */
 @media (max-width: 760px) {
 .header-nav {
