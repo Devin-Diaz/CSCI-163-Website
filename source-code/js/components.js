@@ -8,14 +8,18 @@ document.getElementById("navbar").innerHTML = `
 
 <div class="nav-middle">
 <div class="nav-image">
-    <img src="media/navbar_img.webp" alt="Navbar image">
+
 </div>
 </div>
 
 <div class="nav-right">
 
 <a href="index.html">Home</a>
-<a href="page1.html">1st Article</a>
+
+<a href="c4_avi_article_page.html">AI in AVIs</a>
+<a href="c5_ai_integrity_page.html">AI Integrity in Education</a>
+<a href="c6_ai_ethics_page.html">AI Ethics</a>
+
 <a href="page2.html">2nd Article</a>
 <a href="takeAction.html">Taking Action</a>
 <a href="aboutUs.html">About Us</a>
