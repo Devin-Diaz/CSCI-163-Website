@@ -20,7 +20,7 @@ document.getElementById("navbar").innerHTML = `
 <a href="c5_ai_integrity_page.html">AI Integrity in Education</a>
 <a href="c6_ai_ethics_page.html">AI Ethics</a>
 
-<a href="page2.html">2nd Article</a>
+<a href="ai_critical_thinking_page.html">AI & Critical Thinking</a>
 <a href="takeAction.html">Taking Action</a>
 <a href="aboutUs.html">About Us</a>
 
