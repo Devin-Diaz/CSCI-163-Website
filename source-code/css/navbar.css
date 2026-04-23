@@ -176,12 +176,12 @@ padding:0px 0px;
 gap:8px;
     } */
 
-.nav-middle{
+/* .nav-middle{
 order:3;
 flex-basis: 100%;
 padding:0px;
 justify-content: flex-start;
-}
+} */
 
 .nav-right{
 gap:8px;
