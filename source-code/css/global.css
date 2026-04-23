@@ -22,6 +22,8 @@ box-sizing:border-box;
 
 body{
 
+  padding-top: 152px; /* Account for fixed navbar (92px) + header-nav (60px) */
+
 background-attachment: fixed;
 /* Reference: https://4kwallpapers.com/technology/matrix-falling-code-13665.html */
 background-image: url("../media/programmer-wallpaper.jpg");
