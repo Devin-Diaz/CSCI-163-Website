@@ -171,17 +171,13 @@ width:calc(100% - 20px);
 
 @media (max-width:760px){
 .navbar{
-flex-wrap:wrap;
-padding:0px 0px;
-gap:8px;
-
- /* flex-wrap: wrap;
-        padding: 8px 12px; /* restore SOME padding */
-        gap: 8px;
-        min-height: 64px; /* prevents collapse */
-        align-items: center;
-        position: fixed; /* ensure fixed stays active */
-    } */
+flex-wrap: wrap;
+padding: 8px 12px; /* restore SOME padding */
+gap: 8px;
+min-height: 64px; /* prevents collapse */
+align-items: center;
+position: fixed; /* ensure fixed stays active */
+} 
 
 .nav-middle{
 order:3;
