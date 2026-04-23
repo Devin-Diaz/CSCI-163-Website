@@ -166,3 +166,23 @@ background:rgba(43, 95, 135, 0.2);
 color:var(--ink);
 
 }
+
+#Dev_Profile img {
+width: 200px; 
+height: 280px; 
+object-fit: cover; 
+border-radius: 12px;
+}
+
+#TR_Profile img {
+width: 200px; 
+height: 280px; 
+object-fit: cover; 
+border-radius: 12px;
+}
+
+@media (max-width:760px) {
+  #Dev_Profile img, #TR_Profile img {
+    margin-left: 100px;
+  }
+}
