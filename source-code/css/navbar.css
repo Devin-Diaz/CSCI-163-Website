@@ -27,6 +27,8 @@ z-index:40;
 
 font-size:20px;
 
+font-family: "Times New Roman", serif;
+
 font-weight:bold;
 
 letter-spacing:0.4px;
@@ -90,12 +92,46 @@ transform:translateY(-2px);
 
 .nav-right{
 
+font-family: 'Times New Roman', serif;
+
 display:flex;
 
 gap:20px;
 
 align-items:center;
 
+}
+
+/* Hamburger menu button */
+.hamburger {
+display: none;
+flex-direction: column;
+gap: 5px;
+cursor: pointer;
+padding: 8px;
+background: none;
+border: none;
+}
+
+.hamburger span {
+display: block;
+width: 25px;
+height: 3px;
+background: white;
+border-radius: 2px;
+transition: all 0.3s ease;
+}
+
+.hamburger.active span:nth-child(1) {
+transform: rotate(45deg) translate(5px, 6px);
+}
+
+.hamburger.active span:nth-child(2) {
+opacity: 0;
+}
+
+.hamburger.active span:nth-child(3) {
+transform: rotate(-45deg) translate(5px, -6px);
 }
 
 
@@ -131,24 +167,70 @@ background:rgba(255, 255, 255, 0.12);
 width:calc(100% - 20px);
 }
 
+
 @media (max-width:760px){
 .navbar{
 flex-wrap:wrap;
-padding:16px;
-gap:14px;
-}
+padding:0px 0px;
+gap:8px;
+    }
 
 .nav-middle{
 order:3;
-flex-basis:100%;
-padding:0;
-justify-content:flex-start;
+flex-basis: 100%;
+padding:0px;
+justify-content: flex-start;
 }
 
 .nav-right{
 gap:8px;
-margin-left:auto;
 }
+
+.site-title {
+    margin-left: 16px;
+}
+
+/* Show hamburger on mobile */
+.hamburger {
+    display: flex;
+    position: absolute;
+    top: 0px;
+    right: 16px;
+}
+
+/* Hide nav links by default on mobile */
+.nav-right a{
+display: none;
+}
+
+/* Vertical menu when hamburger is active */
+
+
+    .navbar.menu-open .nav-right {
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: linear-gradient(110deg, #1d2f43 0%, #243b53 50%, #2d4a65 100%);
+        padding: 8px 0 8px 0;
+        gap: 8px;
+        z-index: 50;
+    }
+
+    .navbar.menu-open .hamburger {
+        position: absolute;
+        top: 12px;
+        right: 16px;
+        z-index: 101;
+    }
+
+
+    .navbar.menu-open .nav-right a {
+        display: block;
+        text-align: center;
+        padding: 8px 10px;
+    }
 
 .nav-right a{
 font-size:13px;

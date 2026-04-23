@@ -22,8 +22,6 @@ box-sizing:border-box;
 
 body{
 
-font-family:"Nunito Sans", "Trebuchet MS", "Segoe UI", sans-serif;
-
 background-attachment: fixed;
 /* Reference: https://4kwallpapers.com/technology/matrix-falling-code-13665.html */
 background-image: url("../media/programmer-wallpaper.jpg");
@@ -75,11 +73,26 @@ z-index: 39; /* Below navbar z-index of 40 */
 
 .header-links {
 color: white;
+font-family: 'Times New Roman', serif;
 text-decoration: none;
 padding: 8px 16px;
 border-radius: 4px;
 transition: background-color 0.3s ease;
-font-size: 13px;
+font-size: 20px;
+}
+
+.header-links_aictp {
+  color: white;
+font-family: 'Times New Roman', serif;
+text-decoration: none;
+padding: 8px 16px;
+border-radius: 4px;
+transition: background-color 0.3s ease;
+  font-size: 13px;
+}
+
+.header-links_aictp:hover {
+color:rgba(0, 245, 245, 0.873);
 }
 
 .header-links:hover {
@@ -89,6 +102,15 @@ color:rgba(0, 245, 245, 0.873);
 #action_icon {
   width: 40px;
   height: auto;
+}
+
+.bullets {
+max-width:700px;
+margin: auto;
+text-indent: 0px;
+padding-left: 50px;
+font-size:30px;
+color:black;
 }
 
 .reference {
