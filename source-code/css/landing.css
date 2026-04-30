@@ -1,271 +1,304 @@
+/* --------------------------------------------------
+   Page Layout
+-------------------------------------------------- */
 body {
-    padding-top: 120px;
+  padding-top: 120px; /* Offset for fixed navbar + header-nav */
 }
 
+/* --------------------------------------------------
+   Hero Section
+-------------------------------------------------- */
 .hero {
-    text-align: left;
-    margin-bottom: 40px;
-    padding: 36px 28px;
-    background: linear-gradient(
-        160deg,
-        rgba(255, 255, 255, 0.88),
-        rgba(244, 248, 252, 0.88)
-    );
-    border: 4px solid var(--clip-color, #d9e2ee); /* fallback */
-    border-radius: 14px;
-    box-shadow: 0 10px 24px rgba(26, 50, 74, 0.1);
-    animation: rise-in 0.65s ease both;
+  text-align: left;
+  margin-bottom: 40px;
+  padding: 36px 28px;
+
+  background: linear-gradient(
+    160deg,
+    rgba(255, 255, 255, 0.88),
+    rgba(244, 248, 252, 0.88)
+  );
+
+  border: 4px solid var(--clip-color, #d9e2ee); /* fallback */
+  border-radius: 14px;
+  box-shadow: 0 10px 24px rgba(26, 50, 74, 0.1);
+
+  animation: rise-in 0.65s ease both;
 }
 
-/* Ensure headings with IDs appear below fixed header-nav when scrolled to */
+/* Ensure anchor-linked hero sections scroll below fixed header */
 .hero[id] {
-scroll-margin-top: 220px;
+  scroll-margin-top: 220px;
 }
 
-.hero h1{
-font-size:42px;
-margin-bottom:15px;
-text-align: center;
-font-family:"Times New Roman", sans-serif;
-letter-spacing:0.5px;
-line-height:1.15;
-color:#1f2f45;
+.hero h1 {
+  font-size: 42px;
+  margin-bottom: 15px;
+  text-align: center;
+  font-family: "Times New Roman", sans-serif;
+  letter-spacing: 0.5px;
+  line-height: 1.15;
+  color: #1f2f45;
 }
 
-.hero p{
-max-width:700px;
-margin: auto;
-text-indent: 0px;
-padding-left: 50px;
-font-size:30px;
-color:black;
+.hero p {
+  max-width: 700px;
+  margin: auto;
+  padding-left: 50px;
+  font-size: 30px;
+  color: black;
 }
 
-.hero-image{
-margin:40px 0;
-display:flex;
-justify-content:center;
-animation:rise-in 0.75s ease 0.12s both;
+/* --------------------------------------------------
+   Hero Image
+-------------------------------------------------- */
+.hero-image {
+  margin: 40px 0;
+  display: flex;
+  justify-content: center;
+  animation: rise-in 0.75s ease 0.12s both;
 }
 
+/* --------------------------------------------------
+   Image Placeholder (for missing images)
+-------------------------------------------------- */
 .image-placeholder a {
-    color: rgb(255, 255, 255);
-}
-.image-placeholder img {
-width:100%;
-height:300px;
-display:flex;
-align-items:center;
-justify-content:center;
-background:
-linear-gradient(135deg, rgba(255, 255, 255, 0.9), rgba(232, 241, 248, 0.9)),
-repeating-linear-gradient(
-45deg,
-rgba(94, 143, 177, 0.11) 0,
-rgba(94, 143, 177, 0.11) 10px,
-transparent 10px,
-transparent 20px
-);
-border-radius:14px;
-box-shadow:0 10px 24px rgba(26, 50, 74, 0.1);
-font-weight:700;
-color:#2b5f87;
-animation:float-soft 5.5s ease-in-out infinite;
+  color: white;
 }
 
-.survey{
-text-align:center;
-margin:50px 0;
-padding:30px 22px;
-background: linear-gradient(
-        160deg,
-        rgba(255, 255, 255, 0.88),
-        rgba(244, 248, 252, 0.88)
+.image-placeholder img {
+  width: 100%;
+  height: 300px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.9), rgba(232, 241, 248, 0.9)),
+    repeating-linear-gradient(
+      45deg,
+      rgba(94, 143, 177, 0.11) 0,
+      rgba(94, 143, 177, 0.11) 10px,
+      transparent 10px,
+      transparent 20px
     );
-    border: 4px solid var(--clip-color, #d9e2ee); /* fallback */
-border-radius:14px;
-box-shadow:0 10px 24px rgba(26, 50, 74, 0.1);
-animation:rise-in 0.75s ease 0.2s both;
+
+  border-radius: 14px;
+  box-shadow: 0 10px 24px rgba(26, 50, 74, 0.1);
+
+  font-weight: 700;
+  color: #2b5f87;
+
+  animation: float-soft 5.5s ease-in-out infinite;
+}
+
+/* --------------------------------------------------
+   Survey Section
+-------------------------------------------------- */
+.survey {
+  text-align: center;
+  margin: 50px 0;
+  padding: 30px 22px;
+
+  background: linear-gradient(
+    160deg,
+    rgba(255, 255, 255, 0.88),
+    rgba(244, 248, 252, 0.88)
+  );
+
+  border: 4px solid var(--clip-color, #d9e2ee);
+  border-radius: 14px;
+  box-shadow: 0 10px 24px rgba(26, 50, 74, 0.1);
+
+  animation: rise-in 0.75s ease 0.2s both;
 }
 
 .survey h2 {
-font-size:42px;
-margin-bottom:15px;
-font-family:"Times New Roman", sans-serif;
-letter-spacing:0.5px;
-line-height:1.15;
-color:#1f2f45;
+  font-size: 42px;
+  margin-bottom: 15px;
+  font-family: "Times New Roman", sans-serif;
+  letter-spacing: 0.5px;
+  line-height: 1.15;
+  color: #1f2f45;
 }
 
 .survey p {
-max-width:700px;
-margin:auto;
-font-size:30px;
-color:black;
+  max-width: 700px;
+  margin: auto;
+  font-size: 30px;
+  color: black;
 }
 
-.qr-placeholder{
-width:200px;
-height:200px;
-margin:auto;
-margin-top:20px;
-display:flex;
-align-items:center;
-justify-content:center;
-background:linear-gradient(135deg, #ffffff, #eef7f5);
-border-radius:16px;
-box-shadow:0 10px 24px rgba(26, 50, 74, 0.1);
-color:#2f6259;
-font-weight:700;
-transition:transform 0.3s ease, box-shadow 0.3s ease;
+/* --------------------------------------------------
+   QR Placeholder
+-------------------------------------------------- */
+.qr-placeholder {
+  width: 200px;
+  height: 200px;
+  margin: 20px auto 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: linear-gradient(135deg, #ffffff, #eef7f5);
+  border-radius: 16px;
+  box-shadow: 0 10px 24px rgba(26, 50, 74, 0.1);
+
+  color: #2f6259;
+  font-weight: 700;
+
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .qr-placeholder img {
-max-width: 100%;
-max-height: 100%;
-width: auto;
-height: auto;
-object-fit: contain;
-display: block;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  display: block;
 }
 
-.qr-placeholder:hover{
-transform:translateY(-4px) rotate(-1deg);
-box-shadow:0 16px 28px rgba(26, 50, 74, 0.14);
+.qr-placeholder:hover {
+  transform: translateY(-4px) rotate(-1deg);
+  box-shadow: 0 16px 28px rgba(26, 50, 74, 0.14);
 }
 
-.references{
-margin-top:50px;
-animation:rise-in 0.75s ease 0.28s both;
+/* --------------------------------------------------
+   References Section
+-------------------------------------------------- */
+.references {
+  margin-top: 50px;
+  animation: rise-in 0.75s ease 0.28s both;
 }
 
 .references h2 {
-text-align: center;
-font-size:42px;
-margin-bottom:15px;
-font-family:"Times New Roman", sans-serif;
-letter-spacing:0.5px;
-line-height:1.15;
-color: white;
-    
+  text-align: center;
+  font-size: 42px;
+  margin-bottom: 15px;
+  font-family: "Times New Roman", sans-serif;
+  letter-spacing: 0.5px;
+  line-height: 1.15;
+  color: white;
 }
 
-.citation-box{
-padding:20px;
-border-radius:10px;
-background: linear-gradient(
-        160deg,
-        rgba(255, 255, 255, 0.88),
-        rgba(244, 248, 252, 0.88)
-    );
-    border: 4px solid var(--clip-color, #d9e2ee); /* fallback */
-box-shadow:0 10px 24px rgba(26, 50, 74, 0.1);
-position:relative;
+/* --------------------------------------------------
+   Citation Box
+-------------------------------------------------- */
+.citation-box {
+  padding: 20px;
+  border-radius: 10px;
+
+  background: linear-gradient(
+    160deg,
+    rgba(255, 255, 255, 0.88),
+    rgba(244, 248, 252, 0.88)
+  );
+
+  border: 4px solid var(--clip-color, #d9e2ee);
+  box-shadow: 0 10px 24px rgba(26, 50, 74, 0.1);
+
+  position: relative;
 }
 
-.citation-box::before{
-content:"";
-position:absolute;
-left:0;
-top:0;
-bottom:0;
-width:5px;
-background:linear-gradient(180deg, #5e8fb1, #3f7a6e);
-border-radius:10px 0 0 10px;
+.citation-box::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+
+  width: 5px;
+  background: linear-gradient(180deg, #5e8fb1, #3f7a6e);
+  border-radius: 10px 0 0 10px;
 }
 
-.citation-box p{
-margin-bottom:10px;
-padding-left:12px;
-color:black;
-text-indent: -47px;
-padding-left: 37px;
-font-size:30px;
+.citation-box p {
+  margin-bottom: 10px;
+  padding-left: 37px;
+  text-indent: -47px;
+  font-size: 30px;
+  color: black;
 }
 
-@keyframes rise-in{
-from{
-opacity:0;
-transform:translateY(18px);
-}
-to{
-opacity:1;
-transform:translateY(0);
-}
-}
-
-@keyframes float-soft{
-0%,
-100%{
-transform:translateY(0);
-}
-50%{
-transform:translateY(-6px);
-}
+/* --------------------------------------------------
+   Animations
+-------------------------------------------------- */
+@keyframes rise-in {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
-@media (max-width:760px){
-.hero{
-padding:24px 18px;
+@keyframes float-soft {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
 }
 
-.hero h1{
-font-size:32px;
+/* --------------------------------------------------
+   Mobile Styles
+-------------------------------------------------- */
+@media (max-width: 760px) {
+  .hero {
+    padding: 24px 18px;
+  }
+
+  .hero h1,
+  .survey h2,
+  .references h2 {
+    font-size: 32px;
+  }
+
+  .hero p,
+  .survey p {
+    font-size: 16px;
+  }
+
+  .image-placeholder {
+    height: 220px;
+  }
+
+  .citation-box p {
+    font-size: 16px;
+    text-indent: 0;
+    padding-left: 0;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    max-width: 100%;
+  }
+
+  .bullets {
+    font-size: 16px;
+  }
+
+  .qr-placeholder {
+    width: 170px;
+    height: 170px;
+  }
 }
 
-.hero p{
-font-size:16px;
-}
+/* --------------------------------------------------
+   Reduced Motion Accessibility
+-------------------------------------------------- */
+@media (prefers-reduced-motion: reduce) {
+  .hero,
+  .hero-image,
+  .survey,
+  .references,
+  .image-placeholder {
+    animation: none;
+  }
 
-.image-placeholder{
-height:220px;
-}
-
-.survey{
-padding:24px 18px;
-}
-
-.survey h2{
-font-size:32px;
-}
-
-.survey p{
-font-size:16px;
-}
-
-.references h2{
-font-size:32px;
-}
-
-.citation-box p{
-font-size:16px;
-text-indent: 0;
-padding-left: 0;
-word-break: break-word;
-overflow-wrap: break-word;
-max-width: 100%;
-}
-
-.bullets {
-font-size: 16px;
-}
-
-.qr-placeholder{
-width:170px;
-height:170px;
-}
-}
-
-@media (prefers-reduced-motion:reduce){
-.hero,
-.hero-image,
-.survey,
-.references,
-.image-placeholder{
-animation:none;
-}
-
-.qr-placeholder{
-transition:none;
-}
+  .qr-placeholder {
+    transition: none;
+  }
 }
